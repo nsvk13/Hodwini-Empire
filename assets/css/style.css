@@ -1,0 +1,81 @@
+*html{
+  font-family: 'Corben', cursive;
+}
+
+.navbar .navbar-nav .nav-link {
+   
+    font-size: 1.1em;
+}
+.navbar-light .navbar-brand {
+    color: #ffff !important;
+}
+
+
+.sm-icons {
+  flex-direction: row;
+}
+
+.navbar-nav{
+  
+  margin-bottom: 10px !important;
+  
+}
+
+.navbar-brand:hover{
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #f7fcff, 0 0 0.5em #f7fcff, 0 0 0.1em #f7fcff;
+
+}
+.navbar-nav a{
+  color:#ffff;
+  text-decoration: none;
+}
+
+.navbar-nav a:hover{
+  color:#ffff;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: rgb(231, 231, 231) !important;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .4s;
+  
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  background-size: 100% 2px;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #BFE2FF, 0 0 0.5em #BFE2FF, 0 0 0.1em #BFE2FF;
+
+ 
+}
+.nav-item{
+  margin: 5px;
+}
+
+.navbar{
+  transition: 1s;
+}
+.navbar:hover{
+  border-radius: 15px;
+  background-color: rgba(15, 15, 15, 0.192);
+}
+#active{
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #BFE2FF, 0 0 0.5em #BFE2FF, 0 0 0.1em #BFE2FF;
+  background-size: 100% 2px;
+}
+
+.home{
+  width: 100%;
+  height: 100%;
+  background: url(/assets/img/bg1.png);
+  background-position: center;
+  background-size:cover;
+}
+@media only screen and (max-width: 960px) {
+  .sm-icons .nav-item .nav-icon {
+    padding-right: 1em;
+  }
+}
